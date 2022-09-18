@@ -1,4 +1,10 @@
 # receipt-splitter
 Application for splitting receipts amongst friends efficiently
 
-# Dependencies
+# How to get started
+Run the following terminal commands in sequence:
+`npm install`
+`npm run build`
+`npm start`
+
+Then visit http://localhost:3000/ to get started!
