@@ -1,10 +1,11 @@
 const listOfItems = [
     {
-    item: "banana", 
-    price: 3
+        item: "banana", 
+        price: 3
     }
 ]
 
+//This a function that grabs all the prices and puts it in an array
 const prices = [];
 function getAllPrices(itemsList){
     for (let i=0; i<itemsList.length; i++){
@@ -15,6 +16,7 @@ function getAllPrices(itemsList){
 
 getAllPrices(listOfItems);
 
+//This is a function that takes the array of prices and number of people to split the price evenly 
 function splitEvenly(priceList, numberOfPeople){
     let sum = 0;
     let i = 0;
