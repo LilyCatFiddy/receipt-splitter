@@ -21,3 +21,9 @@ function listItems(receipt) {
   };
   return items;
 }
+
+function splitEvenly(price, numberOfPeople){
+  // incomplete function, need to deal with edge case of a running number, such as a dollar split between 3 people. 
+  // output: A owes '$ X.XX', B owes 'X.XX', C owes 'X.XX'
+  return price/numberOfPeople;
+}
