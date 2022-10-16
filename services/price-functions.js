@@ -22,8 +22,16 @@ function listItems(receipt) {
   return items;
 }
 
-function splitEvenly(price, numberOfPeople){
-  // incomplete function, need to deal with edge case of a running number, such as a dollar split between 3 people. 
-  // output: A owes '$ X.XX', B owes 'X.XX', C owes 'X.XX'
-  return price/numberOfPeople;
+function splitter(price, numberOfPeople) {
+  if (numberOfPeople <= 1) {
+    return price;
+  }
+  const res = {};
+  const split = Math.floor(price / numberOfPeople * 100);
+  let remainder = price * 100 % split;
+  for (let i = 0; i < numberOfPeople; i++) {
+    res[`person${i + 1}`] = (split + remainder) / 100;
+    if (remainder) remainder = 0;
+  }
+  return res;
 }
