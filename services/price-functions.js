@@ -26,12 +26,27 @@ function splitter(price, numberOfPeople) {
   if (numberOfPeople <= 1) {
     return price;
   }
-  const res = {};
-  const split = Math.floor(price / numberOfPeople * 100);
-  let remainder = price * 100 % split;
+  const people = {};
+  const splitPennies = Math.floor(price / numberOfPeople * 100);
+  let remainingPennies = price * 100 % splitPennies;
   for (let i = 0; i < numberOfPeople; i++) {
-    res[`person${i + 1}`] = (split + remainder) / 100;
-    if (remainder) remainder = 0;
+    people[`person${i + 1}`] = splitPennies / 100;
   }
-  return res;
+
+  const potentialRemainderRecepients = Object.keys(people);
+  while (remainingPennies) {
+      const luckyIndex = Math.floor(Math.random() * potentialRemainderRecepients.length);
+      const [winnerName] = potentialRemainderRecepients.splice(luckyIndex, 1);
+      people[winnerName] += 0.01;
+      remainingPennies--;
+  }
+    
+  return people;
 }
+// people = { person1: 3.66, person2: 3.66, person3: 3.66 }
+// potentialRemainderRecepients = [person2, person3];
+// luckyIndex = 0;
+// potentialRemainderRecepients.splice(luckyIndex, 1) = ['person1'];
+// const winnerName = 'person1';
+// people['person1'] += 0.01
+// console.log(splitter(11, 3));
