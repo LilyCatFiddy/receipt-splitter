@@ -8,7 +8,7 @@ console.log(members);
 
 console.log('---------------------------------------------step 2');
 
-// Step 2. SessionInfo generates an ID number associated with each group member. Undefined balance is also associateed and will be updated 
+// Step 2. SessionInfo generates an ID number associated with each group member. '0' balance is also associateed and will be updated 
 function sessionInfoSignUp(members) {
   let sessionInfo = {};
   let idNumber = 1;
@@ -29,27 +29,26 @@ console.log('---------------------------------------------step 3 & 4');
 
 // Step 4.1a Automatic balance to be split evenly, receives total price and outputs balance back into sessionInfo
 function splitter(price, sessionInfo) {
+  console.log('@@@', sessionInfo['001'].balance);
   //need list of MemberId and associate the lucky index with memberID
   let remainingMembers = Object.keys(sessionInfo);
-
   const splitPennies = Math.floor(price / remainingMembers.length * 100);
   let remainingPennies = price * 100 % splitPennies;
 
-  while (remainingPennies) {
-    const luckyIndex = Math.floor(Math.random() * remainingMembers.length);
-    sessionInfo[remainingMembers.splice(luckyIndex, 1)[0]].balance = 1;
-    remainingPennies--;
+  for (let id in sessionInfo) {
+    sessionInfo[id].balance = sessionInfo[id].balance * 100 + splitPennies;
+    sessionInfo[id].balance /= 100;
   }
 
-  for (let id in sessionInfo) {
-    sessionInfo[id].balance += splitPennies;
-    sessionInfo[id].balance /= 100;
+  while (remainingPennies) {
+    const luckyIndex = Math.floor(Math.random() * remainingMembers.length);
+    const luckyMember = remainingMembers.splice(luckyIndex, 1)[0];
+    sessionInfo[luckyMember].balance = (sessionInfo[luckyMember].balance * 100 + 1) / 100;
+    remainingPennies--;
   }
 
   return sessionInfo;
 }
-// console.log(splitter(421.79, sessionResult));
-// console.log(splitter(1000, sessionResult));
 
 
 // next steps, use Receipt function to input price into Splitter Function
