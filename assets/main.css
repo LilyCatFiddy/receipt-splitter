@@ -1,4 +1,5 @@
-.tester {
-    color: red;
-    font-size: 3em;
+.grayed{
+    color: lightgray;
+    display: flex;
+    align-items: center;
 }
