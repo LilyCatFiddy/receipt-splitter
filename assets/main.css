@@ -1,5 +1,15 @@
 .grayed{
-    color: lightgray;
+    color: rgb(51, 50, 50);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+

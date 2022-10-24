@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import AddNewGroup from '../components/AddNewGroup'
+import AddNew from '../components/AddNew'
 
 export default function Home() {
   return (
-    <div>
+    <div className="center">
       <h1>Select Group</h1>
       <div>This is a group Section</div>
       <div>This is a group Section</div>
-      <AddNewGroup/>
+      <AddNew link="/groupCreation" description="Add New Group" />
     </div>
   )
 }
