@@ -1,15 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
 .grayed{
-    color: rgb(51, 50, 50);
+    color: rgb(95, 93, 93);
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.bodyContentAlign{
+    margin: 10% 10%;
 }
 
 
+.bodyContentAlign > * {
+    margin-bottom: 30px;
+    
+}
+
+
+.createandcancel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.createandcancel div {
+    width:fit-content;
+}
+
+.cancelButton{
+    color: red;
+}

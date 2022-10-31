@@ -3,7 +3,7 @@ import AddNew from '../components/AddNew'
 
 export default function Home() {
   return (
-    <div className="center">
+    <div className="bodyContentAlign">
       <h1>Select Group</h1>
       <div>This is a group Section</div>
       <div>This is a group Section</div>

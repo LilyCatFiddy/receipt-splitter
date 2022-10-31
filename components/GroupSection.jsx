@@ -21,7 +21,7 @@ function GroupSection() {
   
     return (
       <>
-        <Button ref={btnRef} colorScheme='teal' onClick={onOpen}>
+        <Button ref={btnRef} onClick={onOpen}>
           <AddNew link="#" description="Add New Member" /> 
         </Button>
         <Drawer
