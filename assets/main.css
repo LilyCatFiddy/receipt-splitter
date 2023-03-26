@@ -16,7 +16,7 @@ body {
 }
 
 /* Start new bill home page */
-.newBillHomePageButton{
+.newBillHomePageButton {
     border: 1px solid gray;
     color: gray;
     border-radius: 0.5em;
@@ -24,18 +24,18 @@ body {
     width: 250px;
 }
 
-.newBillHomePageButton:hover{
+.newBillHomePageButton:hover {
     border: 1px solid rgb(255, 136, 0);
     color: rgb(255, 136, 0);
 }
 
-.newBillHomePageButtonText{
+.newBillHomePageButtonText {
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 
-.newBillHomePageContainer{
+.newBillHomePageContainer {
     height: 200px;
     display: flex;
     flex-direction: column;
