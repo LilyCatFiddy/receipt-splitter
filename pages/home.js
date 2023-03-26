@@ -7,7 +7,15 @@ export default function Home() {
       <Head>
         <title>Receipt Splitter</title>
       </Head>
-      <Layout body={"body"} header={"header"} footer={"footer"}/>
+      <Layout 
+        body={"body"}
+        header={
+          <div className='main-logo'>
+            <img src="logo.png" alt="receipt splitter logo"/>
+          </div>
+        }
+        footer={"footer"}
+      />
     </>
   )
 }
