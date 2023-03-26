@@ -1,6 +1,6 @@
 import Button from "../components/newBillHomePageButtons"
 
-export default function newBillHomePage(){
+export default function newBillHomePage() {
     return (
         <div className="outerContainer">
             <div className="newBillHomePageContainer">

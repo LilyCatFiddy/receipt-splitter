@@ -2,6 +2,7 @@
 body {
     background-color: rgb(48, 48, 48) !important;
 }
+
 #mobile-container {
     background-color: white;
     height: 960px;
@@ -14,9 +15,7 @@ body {
     font-size: 3em;
 }
 
-
 /* Start new bill home page */
-
 .newBillHomePageButton{
     border: 1px solid gray;
     color: gray;
@@ -24,6 +23,7 @@ body {
     padding: 15px;
     width: 250px;
 }
+
 .newBillHomePageButton:hover{
     border: 1px solid rgb(255, 136, 0);
     color: rgb(255, 136, 0);
@@ -50,4 +50,3 @@ body {
     align-items: center;
 }
 
-/* End new bill home page */
