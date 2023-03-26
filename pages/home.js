@@ -1,11 +1,13 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Layout from '../components/layout/index.jsx';
 
 export default function Home() {
   return (
-    <main id="past-bills">
+    <>
       <Head>
         <title>Receipt Splitter</title>
       </Head>
-    </main>
+      <Layout body={"body"} header={"header"} footer={"footer"}/>
+    </>
   )
 }

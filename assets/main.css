@@ -9,7 +9,26 @@ body {
     margin: 0 auto;
 }
 
-.tester {
-    color: red;
-    font-size: 3em;
+/* Mobile Layout */
+.mobile-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.mobile-layout__body {
+    padding: 1rem;
+}
+
+.mobile-layout__footer {
+    border-top: 3px solid rgb(160, 160, 160);
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.mobile-layout__header {
+    box-shadow: 0 1px 3px rgb(160, 160, 160);
+    box-sizing: border-box;
+    padding: 1rem;
 }

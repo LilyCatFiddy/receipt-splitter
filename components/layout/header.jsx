@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-export default function Header() {
-  return (null);
+export default function Header({ children }) {
+  return (<header>{children}</header>);
 }
