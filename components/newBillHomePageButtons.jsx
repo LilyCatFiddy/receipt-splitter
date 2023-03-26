@@ -1,5 +1,5 @@
-export default function newBillHomePageButtons({text, iconName}){
-    return(
+export default function newBillHomePageButtons({ text, iconName }){
+    return (
         <button className="newBillHomePageButton">
             <div className="newBillHomePageButtonText">
                 <div>{text}</div>
