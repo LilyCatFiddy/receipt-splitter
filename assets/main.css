@@ -18,6 +18,7 @@ body {
 }
 
 .mobile-layout__body {
+    flex: 1;
     padding: 1rem;
 }
 
@@ -37,4 +38,40 @@ body {
 .main-logo {
     width: 40px;
     height: 40px;
+}
+
+/* past bills */
+.pastBills__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pastBills__pill {
+    align-items: center;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+}
+
+.pastBills__pill-text {
+    font-size: 1.2rem;
+}
+
+.pastBills__pill--muted {
+    background-color: rgb(240, 240, 240);
+    color:rgb(140, 140, 140);
+}
+
+.pastBills__title {
+    font-size: 2rem;
+}
+
+/* icons */
+.icons__plus {
+    width: 2.5rem;
+    height: 2.5rem;
 }
