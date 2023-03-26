@@ -61,6 +61,31 @@ body {
     font-size: 1.2rem;
 }
 
+.pastBills__pill--empty:hover,
+.pastBills__pill--empty:active {
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(235, 235, 235);
+    color:rgb(135, 135, 135);
+    cursor: pointer;
+}
+
+.pastBills__pill--empty:hover .icons__plus,
+.pastBills__pill--empty:active .icons__plus {
+    filter: brightness(0.9);
+}
+
+.pastBills__pill--filled {
+    border-color: rgb(255, 119, 7);
+    color:rgb(255, 119, 7);
+}
+
+.pastBills__pill--filled:hover,
+.pastBills__pill--filled:active {
+    background-color: rgb(255, 119, 7);
+    color: white;
+    cursor: pointer;
+}
+
 .pastBills__pill--muted {
     background-color: rgb(240, 240, 240);
     color:rgb(140, 140, 140);

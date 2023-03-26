@@ -11,6 +11,7 @@ export default function BillList({ bills }) {
       </h1>
       <ul className="pastBills__list">
         <InfoPill />
+        <Bill title={"Grocery Bill"}/>
         <EmptyPill />
       </ul>
     </div>
