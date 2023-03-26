@@ -4,8 +4,9 @@ import '../assets/main.css';
 export default function App({ Component, pageProps }) {
     return (
         <ChakraProvider>
-            <Component {...pageProps} />
-
+            <div id="mobile-container">
+                <Component {...pageProps} />
+            </div>
         </ChakraProvider>
     );
 }
