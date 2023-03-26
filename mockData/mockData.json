@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "name": "Safeway Grocery Bill",
     "subtotal": 45.00,
     "tax_percentage": 6.33,
     "tax": 2.85,
@@ -43,7 +45,9 @@
       }
     ]
   },
-  {
+  {    
+    "id": 2,
+    "name": "Whole Foods Grocery Bill",
     "subtotal": 32.17,
     "tax_percentage": 8.25,
     "tax": 2.65,
