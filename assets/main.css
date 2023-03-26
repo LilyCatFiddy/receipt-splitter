@@ -13,3 +13,41 @@ body {
     color: red;
     font-size: 3em;
 }
+
+
+/* Start RSB-2 */
+
+.newBillHomePageButton{
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 0.5em;
+    padding: 15px;
+    width: 250px;
+}
+.newBillHomePageButton:hover{
+    border: 1px solid rgb(255, 136, 0);
+    color: rgb(255, 136, 0);
+}
+
+.newBillHomePageButtonText{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.newBillHomePageContainer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outerContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End RSB-2 */
