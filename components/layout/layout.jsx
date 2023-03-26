@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Body from './body.jsx';
 import Footer from './footer.jsx';
 import Header from './header.jsx';
 
-export default function Layout({body, footer, header}) {
+export default function Layout({ body, footer, header }) {
   if (!body || !footer || !header) {
     throw new Error('Layout component should have valid "body", "footer", and "header" props. This error is thrown if you are missing any one of them');
   }

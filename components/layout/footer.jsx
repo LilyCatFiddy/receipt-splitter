@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 export default function Footer({ children }) {
-  return (<footer>{children}</footer>);
+  return (
+    <footer>{children}</footer>
+  );
 }
