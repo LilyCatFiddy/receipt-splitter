@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
-import PastBills from '../components/pastBills';
+import PastBills from '../components/pastBills/body';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Receipt Splitter</title>
+        <title>Past Bills</title>
       </Head>
       <Layout 
         body={<PastBills />}
