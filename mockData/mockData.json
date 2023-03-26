@@ -1,111 +1,99 @@
 [
   {
-    "merchant": "Safeway",
-    "date": "03/25/2023",
     "subtotal": 45.00,
-    "time": "14:30:45",
     "tax_percentage": 6.33,
     "tax": 2.85,
     "total_amount": 47.85,
-    "payment_method": "Credit Card",
-    "card_type": "Visa",
-    "card_number": "**** **** **** 1234",
     "items": [
       {
         "name": "Organic Apples",
-        "quantity": "2 lbs",
+        "quantity": 2,
         "price": 4.99,
         "total_price": 9.98
       },
       {
         "name": "Whole Wheat Bread",
-        "quantity": "1 loaf",
+        "quantity": 1,
         "price": 3.49,
         "total_price": 3.49
       },
       {
         "name": "Milk",
-        "quantity": "1 gallon",
+        "quantity": 1,
         "price": 3.99,
         "total_price": 3.99
       },
       {
         "name": "Eggs",
-        "quantity": "1 dozen",
+        "quantity": 1,
         "price": 2.49,
         "total_price": 2.49
       },
       {
         "name": "Bananas",
-        "quantity": "0.5 lbs",
+        "quantity": 0.5,
         "price": 0.99,
         "total_price": 0.50
       },
       {
         "name": "Yogurt",
-        "quantity": "2 containers",
+        "quantity": 2,
         "price": 1.50,
         "total_price": 3.00
       }
     ]
   },
   {
-    "merchant": "Whole Foods",
-    "date": "03/25/2023",
-    "time": "15:45:23",
     "subtotal": 32.17,
     "tax_percentage": 8.25,
     "tax": 2.65,
     "total_amount": 34.82,
-    "payment_method": "Debit Card",
-    "card_type": "Mastercard",
-    "card_number": "**** **** **** 4321",
     "items": [
       {
         "name": "Ground Beef",
-        "quantity": "1 lb",
+        "quantity": 1,
         "price": 5.99,
         "total_price": 5.99
       },
       {
         "name": "Hot Sauce",
-        "quantity": "1 bottle",
+        "quantity": 1,
         "price": 3.99,
         "total_price": 3.99
       },
       {
         "name": "Tomatoes",
-        "quantity": "0.75 lbs",
+        "quantity": 0.75,
         "price": 1.49,
         "total_price": 1.12
       },
       {
         "name": "Lettuce",
-        "quantity": "1 head",
+        "quantity": 1,
         "price": 1.29,
         "total_price": 1.29
       },
       {
         "name": "Sour Cream",
-        "quantity": "1 container",
+        "quantity": 1,
         "price": 1.99,
         "total_price": 1.99
       },
       {
         "name": "Tortilla Chips",
-        "quantity": "1 bag",
+        "quantity": 1,
         "price": 2.99,
         "total_price": 2.99
       },
       {
         "name": "Beer",
-        "quantity": "6 pack",
+        "quantity": 1,
         "price": 9.99,
         "total_price": 9.99
       },
       {
         "name": "Ice Cream",
-        "quantity": "1 pint",
+        "quantity": 1,
         "price": 4.49,
         "total_price": 4.49
       }
