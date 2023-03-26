@@ -1,6 +1,4 @@
 import Button from "../components/newBillHomePageButtons"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCamera } from '@fortawesome/free-solid-svg-icons'
 
 export default function newBillHomePage(){
     return (
