@@ -1,3 +1,14 @@
+/* Top level */
+body {
+    background-color: rgb(48, 48, 48) !important;
+}
+#mobile-container {
+    background-color: white;
+    height: 960px;
+    width: 540px;
+    margin: 0 auto;
+}
+
 .tester {
     color: red;
     font-size: 3em;
