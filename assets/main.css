@@ -50,3 +50,84 @@ body {
     align-items: center;
 }
 
+/* bill view page */
+.billViewPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upperBillView {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.centerUpperBillView, .profileUpperBillView { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.profileUpperBillView {
+    border: 1px solid  rgb(255, 136, 0);
+    color:  rgb(255, 136, 0);
+    border-radius: 0.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.centerUpperBillView h6 {
+    font-weight: bold;
+}
+
+.bottomBillView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grandTotal {
+    font-weight: bold;
+}
+
+.bottomBillViewExpenses {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.expenseDescription {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orangeExpense {
+    color:rgb(255, 136, 0);
+}
+
+.bottomBillViewButtonsContainer {
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.billViewButtons {
+    width: 200px;
+    padding: 5px 75px;
+    border-radius: 1em;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.billViewButtons:hover {
+    color: white;
+    background-color: gray;
+}
