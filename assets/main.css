@@ -113,8 +113,9 @@ body {
     box-sizing: border-box;
     display: flex;
     flex: 1;
+    font-size: 1.2rem;
+    height: 6rem;
     justify-content: center;;
-    padding: 1rem 0;
     transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 
@@ -135,7 +136,12 @@ body {
 }
 
 /* icons */
-.icons__plus {
+.icon__plus {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.icon__anonymous-person {
+    width: 2rem;
+    height: 2rem;
 }
