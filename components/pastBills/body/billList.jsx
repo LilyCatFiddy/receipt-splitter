@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Bill from './bill.jsx';
 import EmptyPill from './emptyPill.jsx';
 import InfoPill from './infoPill.jsx';
