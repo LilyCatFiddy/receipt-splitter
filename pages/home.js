@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PastBills from '../components/pastBills/body';
+import Footer from '../components/pastBills/footer';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
             <img src="logo.png" alt="receipt splitter logo"/>
           </div>
         }
-        footer={"footer"}
+        footer={<Footer />}
       />
     </>
   )
