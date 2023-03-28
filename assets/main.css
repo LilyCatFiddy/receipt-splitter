@@ -1,4 +1,6 @@
-/* Top level */
+/* =============================
+Top Level
+============================= */
 body {
     background-color: rgb(48, 48, 48) !important;
 }
@@ -10,7 +12,9 @@ body {
     margin: 0 auto;
 }
 
-/* Mobile Layout */
+/* =============================
+Mobile Layout
+============================= */
 .mobile-layout {
     display: flex;
     flex-direction: column;
@@ -35,13 +39,30 @@ body {
     padding: 1rem;
 }
 
-/* logo */
+/* =============================
+Logos
+============================= */
 .main-logo {
     width: 40px;
     height: 40px;
 }
 
-/* past bills */
+/* =============================
+Icons
+============================= */
+.icon__plus {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icon__anonymous-person {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* =============================
+Past Bills
+============================= */
 .pastBills__list {
     display: flex;
     flex-direction: column;
@@ -136,18 +157,9 @@ body {
     font-size: 2rem;
 }
 
-/* icons */
-.icon__plus {
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.icon__anonymous-person {
-    width: 2rem;
-    height: 2rem;
-}
-
-/* Start new bill home page */
+/* =============================
+Start New Bill Home Page
+============================= */
 .newBillHomePageButton {
     border: 1px solid gray;
     color: gray;
