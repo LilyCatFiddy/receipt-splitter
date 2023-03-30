@@ -1,6 +1,6 @@
 export default function billViewHead() {
     return (
-        <div className="upperBillView">
+        <div class="upperBillView">
             <div className='main-logo'>
                 <img src="logo.png" alt="receipt splitter logo"/>
             </div>

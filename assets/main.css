@@ -189,6 +189,7 @@ New Bill Home Page
 
 .outerContainer {
     height: 100%;
+    margin-top:50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,12 +198,6 @@ New Bill Home Page
 /* =============================
 Bill View Page
 ============================= */
-.billViewPage {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 .upperBillView {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -211,8 +206,9 @@ Bill View Page
 .centerUpperBillView, .profileUpperBillView { 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: flex-start; 
     align-items: center;
+    text-align: center;
 }
 
 .profileUpperBillView {
