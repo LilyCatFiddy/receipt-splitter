@@ -9,9 +9,9 @@ export default function newBillHomePage() {
                 <title>New Bill Home Page</title>
             </Head>
             <Layout
-                header={<div></div>}
-                body={<Body/>}
-                footer={<div></div>}
+            header={<div></div>}
+            body={<Body/>}
+            footer={<div></div>}
             />
         </>
     )

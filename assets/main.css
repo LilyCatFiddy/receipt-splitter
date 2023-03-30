@@ -158,7 +158,7 @@ Past Bills
 }
 
 /* =============================
-Start New Bill Home Page
+New Bill Home Page
 ============================= */
 .newBillHomePageButton {
     border: 1px solid gray;
@@ -194,7 +194,9 @@ Start New Bill Home Page
     align-items: center;
 }
 
-/* bill view page */
+/* =============================
+Bill View Page
+============================= */
 .billViewPage {
     height: 100%;
     display: flex;
