@@ -262,9 +262,9 @@ Bill View Page
 }
 
 .billViewButtons {
-    width: 200px;
-    padding: 5px 75px;
-    border-radius: 1em;
+    width: 300px;
+    padding: 7.5px 112.5px;
+    border-radius: 1.5em;
     border: 1px solid gray;
     color: gray;
 }
