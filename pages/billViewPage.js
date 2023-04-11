@@ -10,9 +10,9 @@ export default function billViewPage() {
                 <title>Bill View Page</title>
             </Head>
             <Layout 
-            header = {<Top/>}
-            body = {<div></div>}
-            footer = {<Bottom/>}
+                header = {<Top/>}
+                body = {<div></div>}
+                footer = {<Bottom/>}
             />
         </>
     )
