@@ -8,8 +8,8 @@ body {
 #mobile-container {
     background-color: white;
     height: 960px;
-    width: 540px;
     margin: 0 auto;
+    width: 540px;
 }
 
 /* =============================
@@ -43,21 +43,21 @@ Mobile Layout
 Logos
 ============================= */
 .main-logo {
-    width: 40px;
     height: 40px;
+    width: 40px;
 }
 
 /* =============================
 Icons
 ============================= */
 .icon__plus {
-    width: 2.5rem;
     height: 2.5rem;
+    width: 2.5rem;
 }
 
 .icon__anonymous-person {
-    width: 2rem;
     height: 2rem;
+    width: 2rem;
 }
 
 /* =============================
@@ -158,12 +158,12 @@ Past Bills
 }
 
 /* =============================
-Start New Bill Home Page
+New Bill Home Page
 ============================= */
 .newBillHomePageButton {
     border: 1px solid gray;
-    color: gray;
     border-radius: 0.5em;
+    color: gray;
     padding: 15px;
     width: 250px;
 }
@@ -174,23 +174,102 @@ Start New Bill Home Page
 }
 
 .newBillHomePageButtonText {
+    align-items: center;
     display: flex;
     justify-content:space-between;
-    align-items: center;
 }
 
 .newBillHomePageContainer {
-    height: 200px;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    height: 200px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .outerContainer {
-    height: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top:70%;
 }
 
+/* =============================
+Bill View Page
+============================= */
+.upperBillView {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.centerUpperBillView, .profileUpperBillView { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    text-align: center;
+}
+
+.profileUpperBillView {
+    border: 1px solid  rgb(255, 136, 0);
+    border-radius: 0.5em;
+    color:  rgb(255, 136, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.centerUpperBillView h6 {
+    font-weight: bold;
+}
+
+.bottomBillView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grandTotal {
+    font-weight: bold;
+}
+
+.bottomBillViewExpenses {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.expenseDescription {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.orangeExpense {
+    color:rgb(255, 136, 0);
+}
+
+.bottomBillViewButtonsContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.billViewButtons {
+    border: 1px solid gray;
+    border-radius: 1.5em;
+    color: gray;
+    padding: 7.5px 112.5px;
+    width: 300px;
+}
+
+.billViewButtons:hover {
+    background-color: gray;
+    color: white;
+}

@@ -1,13 +1,18 @@
-import Button from "../components/newBillHomePageButtons"
+import Head from 'next/head'
+import Layout from '../components/layout'
+import Body from '../components/newBillHomePage/newBillHomePageBody'
 
 export default function newBillHomePage() {
     return (
-        <div className="outerContainer">
-            <div className="newBillHomePageContainer">
-                <Button text="Take a photo" iconName='📷'/>
-                <Button text="Upload a screenshot" iconName='⏍' />
-                <Button text="Input data manually" iconName='✏'/>
-            </div>
-        </div>
+        <>
+            <Head>
+                <title>New Bill Home Page</title>
+            </Head>
+            <Layout
+            header={<div></div>}
+            body={<Body/>}
+            footer={<div></div>}
+            />
+        </>
     )
 }
