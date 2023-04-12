@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Layout from '../components/layout'
+import EditTop from '../components/billViewPage/billViewheadEdit'
+import EditBottom from '../components/billViewPage/billViewBottomEdit'
 import Top from '../components/billViewPage/billViewhead'
-import Bottom from '../components/billViewPage/billViewBottom'
 
 export default function billViewPage() {
     return (
@@ -12,7 +13,7 @@ export default function billViewPage() {
             <Layout 
                 header = {<Top/>}
                 body = {<div></div>}
-                footer = {<Bottom/>}
+                footer = {<EditBottom/>}
             />
         </>
     )

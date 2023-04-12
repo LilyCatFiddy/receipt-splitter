@@ -1,5 +1,5 @@
-import Expense from './expenseDescription'
-import Button from './billViewButtons'
+import Expense from './expenseDescriptionEdit'
+import Button from './billViewButtonsEdit'
 
 export default function billViewBottom() {
     return (

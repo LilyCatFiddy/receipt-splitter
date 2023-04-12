@@ -1,18 +1,13 @@
-export default function billViewHead() {
-    return (
-        <div class="upperBillView">
-            <div className='main-logo'>
-                <img src="logo.png" alt="receipt splitter logo"/>
-            </div>
-            <div className="centerUpperBillView">
-                <h6>Summary for</h6>
-                <p>"Bill Name placeholder"</p>
-                <div className="profileUpperBillView">
-                    <div>Profile Icon</div>
-                    <div>Name placeholder</div>
-                </div>
-            </div>
-            <div></div>  
-        </div>      
-    )
+export default function billViewhead() {
+  return (
+    <div className="billViewhead">
+        <h1>Expenses</h1>
+        <h6>Assign Expenses To Users</h6>
+        <div className="billViewheadwide">
+            <button>Receipt 1</button>
+            <button>✏</button>
+        </div>
+    </div>
+  )
 }
+

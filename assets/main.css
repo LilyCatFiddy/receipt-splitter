@@ -273,3 +273,25 @@ Bill View Page
     background-color: gray;
     color: white;
 }
+
+/* =============================
+Bill Edit Page
+============================= */
+.billViewhead {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.billViewhead h1 {
+    font-weight: bold;
+}
+
+.billViewheadwide {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
